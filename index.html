@@ -89,6 +89,8 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;opa
 .cd{width:5px;height:5px;border-radius:50%;background:rgba(245,228,224,.3);cursor:pointer;border:none;transition:all .22s}
 .cd.on{background:var(--creme);transform:scale(1.3)}
 .pbadge{position:absolute;top:7px;left:7px;z-index:10;font-size:.5rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;padding:.2rem .55rem;background:var(--bx);color:var(--creme);border-radius:1px}
+.pbadge.novidade{background:linear-gradient(135deg,#c2185b,#e91e8c);color:#fff;animation:pulseMae 2s ease-in-out infinite alternate}
+@keyframes pulseMae{from{box-shadow:0 0 4px rgba(194,24,91,.4)}to{box-shadow:0 0 10px rgba(233,30,140,.7)}}
 .fct{position:absolute;top:7px;right:7px;z-index:10;background:rgba(7,3,10,.72);color:var(--rg);font-size:.5rem;padding:.18rem .48rem;border-radius:2px;backdrop-filter:blur(4px)}
 .ubar{display:flex;align-items:center;gap:.4rem;padding:.45rem .65rem;background:rgba(7,3,10,.88);border-top:1px solid var(--bc);min-height:42px}
 .uthumbs{display:flex;gap:.3rem;align-items:center;flex:1;min-width:0;overflow:hidden}
@@ -164,6 +166,13 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
   <span class="load-txt">Carregando coleção...</span>
 </div>
 
+<!-- Dia das Maes Bar -->
+<div id="maes-bar" style="background:linear-gradient(135deg,#8B1535 0%,#D4898F 50%,#8B1535 100%);
+  text-align:center;padding:.5rem 1rem;font-family:Montserrat,sans-serif;
+  font-size:.7rem;font-weight:500;letter-spacing:.2em;color:#F5E4E0;
+  text-transform:uppercase;position:relative;z-index:201">
+  🌸 &nbsp; Presentes Especiais para o Dia das Maes &nbsp;|&nbsp; Pecas Exclusivas com Embalagem Especial &nbsp;|&nbsp; Faca o Pedido pelo WhatsApp &nbsp; 🌸
+</div>
 <nav id="nav">
   <div style="display:flex;align-items:center;gap:.7rem">
     <img id="nlogo" class="nlogo" src="" alt="Logo">
@@ -184,7 +193,7 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
   <div id="hcenter">
     <img id="hlogo" src="" alt="Aura Sexy">
     <div class="hbrand">Aura <span>Sexy</span></div>
-    <div class="htagline">Onde o misterio se torna desejo</div>
+    <div class="htagline" id="htagline">Onde o misterio se torna desejo</div>
   </div>
   <div id="hinfo">
     <div class="hey">Destaque</div>
@@ -211,9 +220,9 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
 
 <section id="colecao">
   <div class="sh rv">
-    <div class="sey">Colecao 2026</div>
+    <div class="sey">Colecao 2026 | 🌸 Dia das Maes</div>
     <h2 class="stit">Mostruario <em>Completo</em></h2>
-    <p class="sdsc">Pecas exclusivas — baby dolls, bodies, camisolas, calcinhas e conjuntos. Use as setas para navegar entre as fotos e + para adicionar ate 5 fotos por peca.</p>
+    <p class="sdsc">Pecas exclusivas — baby dolls, bodies, camisolas, calcinhas e conjuntos. Use o filtro <strong style="color:#8B1535">🌸 Dia das Maes</strong> para ver os presentes especiais da data. Use as setas para navegar entre as fotos.</p>
   </div>
   <div class="filtros rv">
     <button class="fil on" onclick="filtrar(this,'todos')">Todos</button>
@@ -225,6 +234,7 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
     <button class="fil" onclick="filtrar(this,'corset')">Corset</button>
     <button class="fil" onclick="filtrar(this,'hobby')">Hobby</button>
     <button class="fil" onclick="filtrar(this,'pijama')">Pijamas</button>
+    <button class="fil" style="background:linear-gradient(135deg,#8B1535,#D4898F);color:#fff;border-color:#8B1535" onclick="filtrar(this,'dia-das-maes')">🌸 Dia das Maes</button>
   </div>
   <div id="pgrid" class="pgrid"></div>
 </section>
@@ -283,7 +293,17 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
 <script>
 // ── APP ──────────────────────────────────────────────────────────────
 var COLS = CATALOGO.produtos;
-var BANNERS = CATALOGO.banners;
+// Banners do Dia das Maes (adicionados dinamicamente antes dos banners normais)
+var BANNERS_MAES = [
+  { key: "w1b", nome: "Presente para Ela", sub: "Porque mae merece se sentir desejada — nao so admirada" },
+  { key: "n1b", nome: "Para a Mae que e Mulher", sub: "Tao intensa quanto o amor que ela te da" },
+  { key: "w7a", nome: "Ela tambem tem desejos", sub: "Presenteie com sofisticacao. Ela merece muito mais." },
+  { key: "n2b", nome: "Dia das Maes Aura Sexy", sub: "Para a mae jovem. Para a mae real. Para voce." },
+];
+
+// Combina banners Dia das Maes + banners normais
+var BANNERS_ORIGINAIS = CATALOGO.banners;
+var BANNERS = BANNERS_MAES.concat(BANNERS_ORIGINAIS);
 
 // Loading bar animation
 var loadPct = 0;
@@ -427,7 +447,7 @@ function buildCards() {
   COLS.forEach(function(col) {
     var id = col.id;
     var card = document.createElement("div");
-    card.className = "pcard rv"; card.dataset.id = id; card.dataset.cat = col.cat;
+    card.className = "pcard rv"; card.dataset.id = id; card.dataset.cat = col.cat; card.dataset.tags = col.tags ? col.tags.join(",") : "";
     var caro = document.createElement("div");
     caro.className = "caro"; caro.id = "caro" + id;
     caro.onclick = function() { openModal(id); };
@@ -452,7 +472,8 @@ function buildCards() {
     var cdts = document.createElement("div");
     cdts.className = "cdots"; cdts.id = "cd" + id; caro.appendChild(cdts);
     var badge = document.createElement("span");
-    badge.className = "pbadge"; badge.textContent = col.badge; caro.appendChild(badge);
+    var badgeCls = "pbadge" + (col.badge === "Novidade" ? " novidade" : "");
+    badge.className = badgeCls; badge.textContent = col.badge; caro.appendChild(badge);
     var fct = document.createElement("div");
     fct.className = "fct"; fct.id = "fc" + id; fct.textContent = "0 fotos"; caro.appendChild(fct);
     card.appendChild(caro);
@@ -538,17 +559,6 @@ function filtrar(btn, cat) {
   document.querySelectorAll(".fil").forEach(function(b) { b.classList.remove("on"); });
   btn.classList.add("on");
   document.querySelectorAll(".pcard").forEach(function(c) {
-    c.style.display = (cat === "todos" || c.dataset.cat === cat) ? "" : "none";
-  });
-}
-window.addEventListener("scroll", function() {
-  document.getElementById("nav").classList.toggle("scrolled", window.scrollY > 60);
-});
-var rvObs = new IntersectionObserver(function(entries) {
-  entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add("on"); });
-}, { threshold: 0.1 });
-document.querySelectorAll(".rv").forEach(function(el) { rvObs.observe(el); });
-initLogos(); buildBanner(); buildCards();
-</script>
-</body>
-</html>
+    var matchCat  = cat === "todos" || c.dataset.cat === cat;
+    var matchTags = c.dataset.tags && c.dataset.tags.split(",").indexOf(cat) > -1;
+    c.style.display 
