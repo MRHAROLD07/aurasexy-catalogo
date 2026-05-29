@@ -218,21 +218,18 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
 
 <section id="colecao">
   <div class="sh rv">
-    <div class="sey">Colecao 2026 | 💕 Dia dos Namorados</div>
-    <h2 class="stit">Mostruario <em>Completo</em></h2>
-    <p class="sdsc">Pecas exclusivas — baby dolls, bodies, camisolas, calcinhas e conjuntos. Use o filtro <strong style="color:#A0102A">💕 Dia dos Namorados</strong> para ver os presentes especiais do dia 12 de Junho. Use as setas para navegar entre as fotos.</p>
+    <div class="sey">💕 Nova Coleção — Dia dos Namorados 2026</div>
+    <h2 class="stit">Presentes que ela <em>nunca esquece</em></h2>
+    <p class="sdsc">Pecas exclusivas com fotos reais — para presentear no 12 de Junho. Clique em qualquer peca e peça pelo WhatsApp. Use as setas para navegar entre as fotos.</p>
   </div>
   <div class="filtros rv">
-    <button class="fil on" onclick="filtrar(this,'todos')">Todos</button>
+    <button class="fil on fil-dn" style="background:linear-gradient(135deg,#A0102A,#C8295A);color:#fff;border-color:#A0102A;font-size:.6rem;padding:.5rem 1.2rem" onclick="filtrar(this,'dia-dos-namorados')">💕 Nova Coleção — Dia dos Namorados</button>
+    <button class="fil" onclick="filtrar(this,'todos')">Todos</button>
     <button class="fil" onclick="filtrar(this,'baby-doll')">Baby Doll</button>
     <button class="fil" onclick="filtrar(this,'body')">Body</button>
     <button class="fil" onclick="filtrar(this,'camisola')">Camisola</button>
     <button class="fil" onclick="filtrar(this,'calcinha')">Calcinhas</button>
     <button class="fil" onclick="filtrar(this,'lingerie')">Conjuntos</button>
-    <button class="fil" onclick="filtrar(this,'corset')">Corset</button>
-    <button class="fil" onclick="filtrar(this,'hobby')">Hobby</button>
-    <button class="fil" onclick="filtrar(this,'pijama')">Pijamas</button>
-    <button class="fil" style="background:linear-gradient(135deg,#A0102A,#C8295A);color:#fff;border-color:#A0102A" onclick="filtrar(this,'dia-dos-namorados')">💕 Dia dos Namorados</button>
   </div>
   <div id="pgrid" class="pgrid"></div>
 </section>
@@ -569,6 +566,11 @@ var rvObs = new IntersectionObserver(function(entries) {
 }, { threshold: 0.1 });
 document.querySelectorAll(".rv").forEach(function(el) { rvObs.observe(el); });
 initLogos(); buildBanner(); buildCards();
+// Auto-ativar coleção Dia dos Namorados ao carregar
+(function() {
+  var btnDN = document.querySelector(".fil-dn");
+  if (btnDN) filtrar(btnDN, "dia-dos-namorados");
+})();
 </script>
 </body>
 </html>
