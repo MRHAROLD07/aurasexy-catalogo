@@ -361,6 +361,152 @@ var CATALOGO = {
       desc: "Renda preta com amarrações e tule — sensualidade extrema",
       keys: ["n7b","n7a"]
     },
+
+    // ── Fotos Novas — Coleção Dia dos Namorados 2026 💕 ──────────
+
+    // ── Casal & Duo ─────────────────────────────────────────────
+    {
+      id: 36,
+      nome: "Conjunto Branco Cinta-Liga",
+      preco: "R$ 249,90",
+      cat: "lingerie",
+      badge: "Casal",
+      tags: ["dia-dos-namorados"],
+      desc: "Corset branco com bordado floral dourado e cinta-liga — sofisticado e irresistível",
+      keys: ["dn1a","dn1b"]
+    },
+    {
+      id: 37,
+      nome: "Body Vermelho Paixão",
+      preco: "R$ 149,90",
+      cat: "body",
+      badge: "Casal",
+      tags: ["dia-dos-namorados"],
+      desc: "Body vermelho de renda com laço — apaixonante para a noite dos dois",
+      keys: ["dn2a","dn2b"]
+    },
+    {
+      id: 38,
+      nome: "Camisola Preta Cetim",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Casal",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola preta de cetim com decote halter — misteriosa e elegante",
+      keys: ["dn3a","dn3b"]
+    },
+    {
+      id: 39,
+      nome: "Duo Conjunto com Roupão",
+      preco: "R$ 219,90",
+      cat: "lingerie",
+      badge: "Duo",
+      tags: ["dia-dos-namorados"],
+      desc: "Conjunto de renda com roupão transparente — disponível em preto e vermelho",
+      keys: ["dn4a","dn4b"]
+    },
+    {
+      id: 40,
+      nome: "Duo Camisola Cetim",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Duo",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola de cetim com decote em renda — disponível em azul marinho e branco",
+      keys: ["dn5a","dn5b"]
+    },
+
+    // ── Lingerie Individual ──────────────────────────────────────
+    {
+      id: 41,
+      nome: "Conjunto Bordado com Choker",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Sutiã + calcinha em tule bordado preto com choker floral — ousadia e sofisticação",
+      keys: ["dn6a","dn6b"]
+    },
+    {
+      id: 42,
+      nome: "Camisola Vinho Tule",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola vinho em tule transparente com bojo de renda — intensa e irresistível",
+      keys: ["dn7a","dn7b"]
+    },
+    {
+      id: 43,
+      nome: "Conjunto Bordado Rosas",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Sutiã + calcinha em tule bordado com rosas coloridas — único e apaixonante",
+      keys: ["dn8a","dn8b"]
+    },
+    {
+      id: 44,
+      nome: "Conjunto Top + Short Renda",
+      preco: "R$ 179,90",
+      cat: "lingerie",
+      badge: "Conforto",
+      tags: ["dia-dos-namorados"],
+      desc: "Top + short em renda preta transparente — delicada, sensual e confortável",
+      keys: ["dn9a","dn9b"]
+    },
+    {
+      id: 45,
+      nome: "Conjunto Vermelho Coração",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Conjunto vermelho estampado com coração e liga — feito para o 12 de junho",
+      keys: ["dn10a"]
+    },
+    {
+      id: 46,
+      nome: "Harness Vermelho Dourado",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Ousado",
+      tags: ["dia-dos-namorados"],
+      desc: "Harness vermelho com correntes douradas — poder, sedução e presença total",
+      keys: ["dn11a","dn11b"]
+    },
+    {
+      id: 47,
+      nome: "Conjunto Vermelho Bordado Floral",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Bustier + calcinha em tule bordado vermelho — delicado e ardente",
+      keys: ["dn12a","dn12b"]
+    },
+    {
+      id: 48,
+      nome: "Body Fúcsia Bordado",
+      preco: "R$ 169,90",
+      cat: "body",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Body fúcsia com bordado floral — vibrante, feminina e irresistível",
+      keys: ["dn13a","dn13b"]
+    },
+    {
+      id: 49,
+      nome: "Conjunto Onça Selvagem",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Wild",
+      tags: ["dia-dos-namorados"],
+      desc: "Conjunto estampa onça com detalhes pretos — ousado, selvagem e irresistível",
+      keys: ["dn14a","dn14b"]
+    },
   ],
 
   // ------------------------------------------------------------------
