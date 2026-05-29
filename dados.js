@@ -4,7 +4,6 @@
 //   • Preços                → campo "preco"
 //   • Descrições            → campo "desc"
 //   • Categorias            → campo "cat"
-//   • Tags especiais        → campo "tags" (ex: ["dia-das-maes"])
 //   • Quais fotos aparecem  → campo "keys" (use as chaves de fotos.js)
 //   • Texto do banner       → seção BANNERS abaixo
 // ================================================================
@@ -233,126 +232,150 @@ var CATALOGO = {
       keys: ["w1b","w1d","w1f","w1c","w1a","w1e"]
     },
 
-    // ── Coleção Dia das Mães 2026 🌸 ────────────────────────────────
+    // ── Coleção Dia dos Namorados 2026 💕 ───────────────────────────
 
-    // ── Camisolas Dia das Mães ──────────────────────────────────────
+    // ── Camisolas Dia dos Namorados ─────────────────────────────────
     {
       id: 24,
-      nome: "Camisola Branca Luminosa",
-      preco: "R$ 169,90",
+      nome: "Camisola Carmim Desejo",
+      preco: "R$ 189,90",
       cat: "camisola",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Camisola branca com bojo de renda floral e alças cruzadas — delicada e irresistível",
-      keys: ["dm4a","dm4b","dm4c"]
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Corset em renda com saia longa em tule — dramática e irresistível",
+      keys: ["n5a","n5b","n5c","n5d"]
     },
     {
       id: 25,
-      nome: "Camisola Vermelha Paixão",
-      preco: "R$ 169,90",
+      nome: "Camisola Noir Sedução",
+      preco: "R$ 159,90",
       cat: "camisola",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Camisola vermelha com bojo de renda e costas cruzadas — ardente e sofisticada",
-      keys: ["dm5a","dm5b","dm5c","dm5d"]
+      badge: "Noite",
+      tags: ["dia-dos-namorados"],
+      desc: "Cetim com renda e decote aberto nas costas — misteriosa e elegante",
+      keys: ["c6a","c6b","c6c"]
     },
     {
       id: 26,
-      nome: "Camisola Noir Elegance",
-      preco: "R$ 169,90",
+      nome: "Camisola Terracota Ritual",
+      preco: "R$ 159,90",
       cat: "camisola",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Camisola preta com renda e alças cruzadas — misteriosa e elegante",
-      keys: ["dm6a","dm6b"]
-    },
-    {
-      id: 32,
-      nome: "Camisola Branca Satin",
-      preco: "R$ 179,90",
-      cat: "camisola",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Camisola branca em cetim com bojo de renda — sofisticada e irresistível",
-      keys: ["dm8a","dm8b"]
-    },
-    {
-      id: 33,
-      nome: "Camisola Vinho Premium",
-      preco: "R$ 179,90",
-      cat: "camisola",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Camisola vinho em cetim com bojo de renda e costas abertas — intensa e elegante",
-      keys: ["dm9a","dm9b"]
-    },
-    {
-      id: 34,
-      nome: "Camisola Noir Satin",
-      preco: "R$ 179,90",
-      cat: "camisola",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Camisola preta em cetim com decote profundo nas costas — misteriosa e sensual",
-      keys: ["dm11a"]
-    },
-    {
-      id: 30,
-      nome: "Camisola Azul Marinho",
-      preco: "R$ 169,90",
-      cat: "camisola",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Camisola azul marinho em cetim com bojo de renda e pingente dourado — elegante e marcante",
-      keys: ["dm1a","dm1b","dm1c","dm1d","dm1e","dm1f"]
+      badge: "Desejo",
+      tags: ["dia-dos-namorados"],
+      desc: "Cetim rosê com renda e costas cruzadas — um presente para os dois",
+      keys: ["c7a","c7b","c7c"]
     },
 
-    // ── Calcinhas Dia das Mães ──────────────────────────────────────
+    // ── Calcinhas Dia dos Namorados ──────────────────────────────────
     {
       id: 27,
-      nome: "Calcinha Rosa Pérola",
+      nome: "Calcinha Crimson",
       preco: "R$ 59,90",
       cat: "calcinha",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Fio dental rosa com renda e detalhe pérola — feminina e irresistível",
-      keys: ["dm2a","dm2b"]
+      badge: "Quente",
+      tags: ["dia-dos-namorados"],
+      desc: "Fio dental vermelho com renda — apaixonante e irresistível",
+      keys: ["c9b","c9c","c9a","c9d"]
     },
     {
       id: 28,
-      nome: "Calcinha Verde Menta",
+      nome: "Calcinha Vermelha Laço",
       preco: "R$ 59,90",
       cat: "calcinha",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Fio dental verde menta com renda e pingente coração — fresca e encantadora",
-      keys: ["dm3a","dm3b","dm3c"]
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Calcinha vermelha de renda com laço — ousada e apaixonante",
+      keys: ["w6a","w5a"]
     },
     {
       id: 29,
-      nome: "Calcinha Vermelha Desejo",
+      nome: "Calcinha Noir",
       preco: "R$ 59,90",
       cat: "calcinha",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Fio dental vermelho cetinado — ousado e apaixonante",
-      keys: ["dm7a"]
+      badge: "Sedução",
+      tags: ["dia-dos-namorados"],
+      desc: "Fio dental com renda preta e argolas douradas — o detalhe que completa a noite",
+      keys: ["c8a","c8b","c8c"]
+    },
+
+    // ── Lingerie (conjuntos) Dia dos Namorados ───────────────────────
+    {
+      id: 30,
+      nome: "Conjunto Renda Rubi",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Bralette + saia de renda vermelha — ardente e elegante",
+      keys: ["n2b","n2a","n2c"]
+    },
+    {
+      id: 31,
+      nome: "Conjunto Renda Vermelha Premium",
+      preco: "R$ 219,90",
+      cat: "lingerie",
+      badge: "Premium",
+      tags: ["dia-dos-namorados"],
+      desc: "Bralette + saia de renda vermelha em cenário luxuoso — irresistível",
+      keys: ["w7a","w7b","w7c"]
+    },
+    {
+      id: 32,
+      nome: "Conjunto Branco Luxo",
+      preco: "R$ 249,90",
+      cat: "lingerie",
+      badge: "Presentear",
+      tags: ["dia-dos-namorados"],
+      desc: "Corset de renda + cinta-liga + calcinha — o presente que ela nunca vai esquecer",
+      keys: ["w1b","w1d","w1f","w1c","w1a","w1e"]
+    },
+    {
+      id: 33,
+      nome: "Conjunto Renda Noir Luxo",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Sutiã estruturado + calcinha em renda preta — sofisticação para a noite",
+      keys: ["n6a","n6b"]
+    },
+
+    // ── Baby Dolls Dia dos Namorados ─────────────────────────────────
+    {
+      id: 34,
+      nome: "Baby Doll Vermelho",
+      preco: "R$ 149,90",
+      cat: "baby-doll",
+      badge: "Destaque",
+      tags: ["dia-dos-namorados"],
+      desc: "Tule transparente com renda — ousadia e sofisticação para a noite dos dois",
+      keys: ["p2a","p2b"]
     },
     {
       id: 35,
-      nome: "Calcinha Azul Naval",
-      preco: "R$ 59,90",
-      cat: "calcinha",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Calcinha azul marinho de renda — delicada e feminina",
-      keys: ["dm12a"]
+      nome: "Baby Doll Noir",
+      preco: "R$ 169,90",
+      cat: "baby-doll",
+      badge: "Noite",
+      tags: ["dia-dos-namorados"],
+      desc: "Renda preta com amarrações e tule — sensualidade extrema",
+      keys: ["n7b","n7a"]
     },
-    {
-      id: 36,
-      nome: "Calcinha Noir Alta",
-      preco: "R$ 59,90",
-      cat: "calcinha",
-      badge: "Novidade",
-      tags: ["dia-das-maes"],
-      desc: "Calcinha preta de cintura alta — elegante e
+  ],
+
+  // ------------------------------------------------------------------
+  // BANNERS — slides do topo da página (máx. recomendado: 10)
+  // ------------------------------------------------------------------
+  banners: [
+    { key: "w7a",  nome: "O desejo não precisa de data",           sub: "Mas quando tem uma, se torna inesquecível" },
+    { key: "n2b",  nome: "Para ela. Para você. Para os dois.",      sub: "A noite começa antes de você sair de casa" },
+    { key: "w1b",  nome: "Presenteie com intenção",                 sub: "Porque o que ela veste em segredo diz tudo" },
+    { key: "c9b",  nome: "Dia dos Namorados — 12 de Junho",         sub: "Cada peça, um ritual. Cada detalhe, uma promessa." },
+    { key: "n5a",  nome: "Camisola Carmim",                         sub: "Dramática e irresistível" },
+    { key: "w7c",  nome: "Conjunto Renda Vermelha Premium",         sub: "Cada detalhe é um convite" },
+    { key: "n1b",  nome: "Conjunto Renda Noir",                     sub: "Sofisticação que encanta" },
+    { key: "p2b",  nome: "Baby Doll Vermelho",                      sub: "Para noites inesquecíveis" },
+    { key: "w1e",  nome: "Conjunto Branco Luxo",                    sub: "O luxo que ela merece" },
+    { key: "n6a",  nome: "Conjunto Renda Noir Luxo",                sub: "A escolha de quem sabe o que quer" },
+  ]
+};
