@@ -529,6 +529,28 @@ var CATALOGO = {
       desc: "Corset de renda + cinta-liga + calcinha — elegância e sensualidade máximas",
       keys: ["w1b","w1d","w1f","w1c","w1a","w1e"]
     }
+
+    // ── Fotos Editoriais Lifestyle ───────────────────────────────
+    {
+      id: 50,
+      nome: "Camisola Vermelha Paixão",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Editorial",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola vermelha em cetim com bojo de renda e pingente dourado — sofisticada e irresistível",
+      keys: ["uv1a","uv1c","uv1b","uv1d"]
+    },
+    {
+      id: 51,
+      nome: "Camisola Branca Encanto",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Editorial",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola branca em cetim com bojo de renda — delicada, pura e inesquecível",
+      keys: ["uv2a","uv2b","uv2c"]
+    },
   ],
 
   // ------------------------------------------------------------------
