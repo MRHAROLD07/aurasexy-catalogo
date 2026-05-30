@@ -557,47 +557,46 @@ var rvObs = new IntersectionObserver(function(entries) {
   entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add("on"); });
 }, { threshold: 0.1 });
 document.querySelectorAll(".rv").forEach(function(el) { rvObs.observe(el); });
-// ── CARREGAMENTO ASSÍNCRONO DE FOTOS ────────────────────────────────
-// Carrega fotos.js sem bloquear a página
-(function() {
-  function iniciarApp() {
-    initLogos(); buildBanner(); buildCards();
-    var btnDN = document.querySelector(".fil-dn");
-    if (btnDN) filtrar(btnDN, "dia-dos-namorados");
-    // Dismiss loading screen imediatamente após init
-    clearInterval(loadInt);
-    document.getElementById("load-bar").style.width = "100%";
-    setTimeout(function() {
-      document.getElementById("loading").classList.add("done");
-      setTimeout(function() { document.getElementById("loading").style.display = "none"; }, 800);
-    }, 300);
-  }
+// ── CARREGAMENTO EM 2 ETAPAS ─────────────────────────────────────
+// Etapa 1: dados.js já carregou (24KB) → mostrar página imediatamente
+// Etapa 2: fotos.js (4.5MB) carrega em background → imagens aparecem depois
 
-  // Carregar fotos-nc.js depois que o app inicializar
-  function carregarNC() {
-    var s = document.createElement('script');
-    s.src = 'fotos-nc.js';
-    s.onload = function() {
-      // Re-inicializar carousels dos produtos nc*
+// Mostrar página AGORA (sem esperar fotos.js)
+clearInterval(loadInt);
+document.getElementById("load-bar").style.width = "100%";
+setTimeout(function() {
+  document.getElementById("loading").classList.add("done");
+  setTimeout(function() { document.getElementById("loading").style.display = "none"; }, 600);
+}, 200);
+
+// Criar cards SEM imagens (aparecem como placeholders)
+buildCards();
+var btnDN = document.querySelector(".fil-dn");
+if (btnDN) filtrar(btnDN, "dia-dos-namorados");
+
+// Carregar fotos.js em background
+(function() {
+  var sF = document.createElement('script');
+  sF.src = 'fotos.js?' + Date.now(); // cache-busting
+  sF.onload = function() {
+    // Fotos disponíveis → inicializar logos, banners e carousels
+    initLogos();
+    buildBanner();
+    COLS.forEach(function(col) { initCarousel(col.id); });
+    // Agora carregar fotos novas
+    var sNC = document.createElement('script');
+    sNC.src = 'fotos-nc.js?' + Date.now(); // cache-busting
+    sNC.onload = function() {
       COLS.forEach(function(col) {
         if (col.keys && col.keys.some(function(k){ return k.startsWith('nc'); })) {
           initCarousel(col.id);
         }
       });
     };
-    document.body.appendChild(s);
-  }
-
-  // Carregar fotos.js (arquivo grande) de forma assíncrona
-  var sF = document.createElement('script');
-  sF.src = 'fotos.js';
-  sF.onload = function() {
-    iniciarApp();
-    carregarNC();
+    document.body.appendChild(sNC);
   };
   sF.onerror = function() {
     console.error('Erro ao carregar fotos.js');
-    document.getElementById("loading").style.display = "none";
   };
   document.body.appendChild(sF);
 })();
