@@ -286,6 +286,20 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
 <script src="fotos.js"></script>
 <script src="dados.js"></script>
 <script>
+// Carrega as novas fotos da coleção DN 2026 de forma assíncrona
+// (não bloqueia a renderização da página)
+(function() {
+  var s = document.createElement('script');
+  s.src = 'fotos-nc.js';
+  s.onload = function() {
+    // Recarregar produtos que usam as novas chaves nc*
+    if (typeof renderizar === 'function') renderizar();
+    if (typeof renderGaleria === 'function') renderGaleria();
+  };
+  document.body.appendChild(s);
+})();
+</script>
+<script>
 // ── APP ──────────────────────────────────────────────────────────────
 var COLS = CATALOGO.produtos;
 // Banners do Dia dos Namorados (adicionados antes dos banners normais)
