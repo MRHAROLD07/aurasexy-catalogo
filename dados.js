@@ -551,6 +551,279 @@ var CATALOGO = {
       desc: "Camisola branca em cetim com bojo de renda — delicada, pura e inesquecível",
       keys: ["uv2a","uv2b","uv2c"]
     },
+
+    // ── Coleção Nova — Dia dos Namorados 2026 ──────────────────────────
+    {
+      id: 52,
+      nome: "Conjunto Encanto Vermelho",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Conjunto em renda vermelha com detalhes delicados — para uma noite inesquecível",
+      keys: ["nc1a"]
+    },
+    {
+      id: 53,
+      nome: "Conjunto Renda Florais",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Sutiã e calcinha em renda com bordado floral — feminino e irresistível",
+      keys: ["nc2a", "nc2b", "nc2c"]
+    },
+    {
+      id: 54,
+      nome: "Camisola Sedução Premium",
+      preco: "R$ 179,90",
+      cat: "camisola",
+      badge: "Editorial",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola em tecido nobre com decote elegante — sofisticação pura",
+      keys: ["nc3a", "nc3b", "nc3c"]
+    },
+    {
+      id: 55,
+      nome: "Body Ardente",
+      preco: "R$ 159,90",
+      cat: "body",
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Body com detalhes em renda — sensual e confortável para a noite dos dois",
+      keys: ["nc4a", "nc4b"]
+    },
+    {
+      id: 56,
+      nome: "Conjunto Amor Vermelho",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Casal",
+      tags: ["dia-dos-namorados"],
+      desc: "Conjunto vermelho com acabamento delicado — feito para o 12 de junho",
+      keys: ["nc5a", "nc5b"]
+    },
+    {
+      id: 57,
+      nome: "Camisola Romântica Noir",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Noite",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola escura com detalhe em renda — misteriosa e elegante",
+      keys: ["nc6a", "nc6b"]
+    },
+    {
+      id: 58,
+      nome: "Conjunto Ritual Bordado",
+      preco: "R$ 209,90",
+      cat: "lingerie",
+      badge: "Premium",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie com bordado especial — um ritual de sedução e amor",
+      keys: ["nc7a", "nc7b", "nc7c", "nc7d"]
+    },
+    {
+      id: 59,
+      nome: "Baby Doll Desejo",
+      preco: "R$ 149,90",
+      cat: "baby-doll",
+      badge: "Destaque",
+      tags: ["dia-dos-namorados"],
+      desc: "Baby doll com tule e renda — delicado e irresistível",
+      keys: ["nc8a", "nc8b"]
+    },
+    {
+      id: 60,
+      nome: "Conjunto Noite Especial",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie especial para a noite dos dois — detalhes que encantam",
+      keys: ["nc9a", "nc9b", "nc9c"]
+    },
+    {
+      id: 61,
+      nome: "Camisola Paixão Total",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Quente",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola com detalhes apaixonantes — para uma noite de pura emoção",
+      keys: ["nc10a", "nc10b"]
+    },
+    {
+      id: 62,
+      nome: "Conjunto Provocante",
+      preco: "R$ 179,90",
+      cat: "lingerie",
+      badge: "Ousado",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie provocante com detalhes exclusivos — para ela brilhar",
+      keys: ["nc11a"]
+    },
+    {
+      id: 63,
+      nome: "Body Noite de Amor",
+      preco: "R$ 149,90",
+      cat: "body",
+      badge: "Casal",
+      tags: ["dia-dos-namorados"],
+      desc: "Body com acabamento especial — para a noite mais especial do ano",
+      keys: ["nc12a", "nc12b"]
+    },
+    {
+      id: 64,
+      nome: "Conjunto Charme Feminino",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Elegante",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie com charme e feminilidade — ela vai adorar",
+      keys: ["nc13a"]
+    },
+    {
+      id: 65,
+      nome: "Camisola Encantadora",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Romance",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola com detalhes românticos — para uma noite de puro encanto",
+      keys: ["nc14a", "nc14b"]
+    },
+    {
+      id: 66,
+      nome: "Conjunto Sedução Total",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Premium",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie de sedução total — cada detalhe é uma promessa",
+      keys: ["nc15a", "nc15b"]
+    },
+    {
+      id: 67,
+      nome: "Baby Doll Romântico",
+      preco: "R$ 149,90",
+      cat: "baby-doll",
+      badge: "Romance",
+      tags: ["dia-dos-namorados"],
+      desc: "Baby doll romântico com tule delicado — puro romantismo",
+      keys: ["nc16a", "nc16b"]
+    },
+    {
+      id: 68,
+      nome: "Conjunto Desejo Puro",
+      preco: "R$ 189,90",
+      cat: "lingerie",
+      badge: "Paixão",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie que desperta o desejo — para uma noite extraordinária",
+      keys: ["nc17a", "nc17b"]
+    },
+    {
+      id: 69,
+      nome: "Conjunto Amor Perfeito",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Casal",
+      tags: ["dia-dos-namorados"],
+      desc: "O conjunto perfeito para celebrar o amor — detalhes que emocionam",
+      keys: ["nc18a", "nc18b", "nc18c"]
+    },
+    {
+      id: 70,
+      nome: "Body Paixão Profunda",
+      preco: "R$ 159,90",
+      cat: "body",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Body com acabamentos especiais — sensual e elegante",
+      keys: ["nc19a", "nc19b", "nc19c"]
+    },
+    {
+      id: 71,
+      nome: "Camisola Sonho Romântico",
+      preco: "R$ 179,90",
+      cat: "camisola",
+      badge: "Editorial",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola leve e sedutora — para noites de muito amor",
+      keys: ["nc20a", "nc20b", "nc20c", "nc20d"]
+    },
+    {
+      id: 72,
+      nome: "Conjunto Tentação",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Quente",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie que não passa despercebida — tentação em cada detalhe",
+      keys: ["nc21a", "nc21b"]
+    },
+    {
+      id: 73,
+      nome: "Conjunto Noite dos Dois",
+      preco: "R$ 209,90",
+      cat: "lingerie",
+      badge: "Duo",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie especialmente pensada para o Dia dos Namorados — inesquecível",
+      keys: ["nc22a", "nc22b", "nc22c"]
+    },
+    {
+      id: 74,
+      nome: "Camisola Surpresa",
+      preco: "R$ 169,90",
+      cat: "camisola",
+      badge: "Presentear",
+      tags: ["dia-dos-namorados"],
+      desc: "Camisola que surpreende — o presente que ela sempre quis",
+      keys: ["nc23a"]
+    },
+    {
+      id: 75,
+      nome: "Body Casal Especial",
+      preco: "R$ 159,90",
+      cat: "body",
+      badge: "Casal",
+      tags: ["dia-dos-namorados"],
+      desc: "Body especial para celebrar o amor — para a noite do dia 12",
+      keys: ["nc24a"]
+    },
+    {
+      id: 76,
+      nome: "Conjunto Premium Fotográfico",
+      preco: "R$ 219,90",
+      cat: "lingerie",
+      badge: "Premium",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie de alta qualidade com acabamento fotográfico — sofisticação máxima",
+      keys: ["nc25a", "nc25b"]
+    },
+    {
+      id: 77,
+      nome: "Conjunto Editorial Luxo",
+      preco: "R$ 229,90",
+      cat: "lingerie",
+      badge: "Exclusivo",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie editorial com detalhes luxuosos — para quem quer o melhor",
+      keys: ["nc26a", "nc26b", "nc26c"]
+    },
+    {
+      id: 78,
+      nome: "Conjunto Fotográfico Noir",
+      preco: "R$ 199,90",
+      cat: "lingerie",
+      badge: "Elegante",
+      tags: ["dia-dos-namorados"],
+      desc: "Lingerie noir de nível fotográfico — elegância e sedução",
+      keys: ["nc27a", "nc27b"]
+    },
+  
   ],
 
   // ------------------------------------------------------------------
