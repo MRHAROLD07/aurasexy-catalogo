@@ -282,23 +282,8 @@ footer{border-top:1px solid var(--bc);padding:2.2rem 3rem;display:flex;align-ite
   </div>
 </div>
 
-<!-- Carrega dados externos: edite dados.js para mudar preços/nomes -->
-<script src="fotos.js"></script>
+<!-- dados.js é pequeno (24KB), carrega rápido -->
 <script src="dados.js"></script>
-<script>
-// Carrega as novas fotos da coleção DN 2026 de forma assíncrona
-// (não bloqueia a renderização da página)
-(function() {
-  var s = document.createElement('script');
-  s.src = 'fotos-nc.js';
-  s.onload = function() {
-    // Recarregar produtos que usam as novas chaves nc*
-    if (typeof renderizar === 'function') renderizar();
-    if (typeof renderGaleria === 'function') renderGaleria();
-  };
-  document.body.appendChild(s);
-})();
-</script>
 <script>
 // ── APP ──────────────────────────────────────────────────────────────
 var COLS = CATALOGO.produtos;
@@ -322,14 +307,7 @@ var loadInt = setInterval(function() {
   document.getElementById("load-bar").style.width = loadPct + "%";
 }, 200);
 
-window.addEventListener("load", function() {
-  clearInterval(loadInt);
-  document.getElementById("load-bar").style.width = "100%";
-  setTimeout(function() {
-    document.getElementById("loading").classList.add("done");
-    setTimeout(function() { document.getElementById("loading").style.display = "none"; }, 900);
-  }, 400);
-});
+// Loading screen é controlado pelo carregamento assíncrono de fotos.js
 
 function initLogos() {
   var logo = IMGS["logo"];
@@ -579,11 +557,49 @@ var rvObs = new IntersectionObserver(function(entries) {
   entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add("on"); });
 }, { threshold: 0.1 });
 document.querySelectorAll(".rv").forEach(function(el) { rvObs.observe(el); });
-initLogos(); buildBanner(); buildCards();
-// Auto-ativar coleção Dia dos Namorados ao carregar
+// ── CARREGAMENTO ASSÍNCRONO DE FOTOS ────────────────────────────────
+// Carrega fotos.js sem bloquear a página
 (function() {
-  var btnDN = document.querySelector(".fil-dn");
-  if (btnDN) filtrar(btnDN, "dia-dos-namorados");
+  function iniciarApp() {
+    initLogos(); buildBanner(); buildCards();
+    var btnDN = document.querySelector(".fil-dn");
+    if (btnDN) filtrar(btnDN, "dia-dos-namorados");
+    // Dismiss loading screen imediatamente após init
+    clearInterval(loadInt);
+    document.getElementById("load-bar").style.width = "100%";
+    setTimeout(function() {
+      document.getElementById("loading").classList.add("done");
+      setTimeout(function() { document.getElementById("loading").style.display = "none"; }, 800);
+    }, 300);
+  }
+
+  // Carregar fotos-nc.js depois que o app inicializar
+  function carregarNC() {
+    var s = document.createElement('script');
+    s.src = 'fotos-nc.js';
+    s.onload = function() {
+      // Re-inicializar carousels dos produtos nc*
+      COLS.forEach(function(col) {
+        if (col.keys && col.keys.some(function(k){ return k.startsWith('nc'); })) {
+          initCarousel(col.id);
+        }
+      });
+    };
+    document.body.appendChild(s);
+  }
+
+  // Carregar fotos.js (arquivo grande) de forma assíncrona
+  var sF = document.createElement('script');
+  sF.src = 'fotos.js';
+  sF.onload = function() {
+    iniciarApp();
+    carregarNC();
+  };
+  sF.onerror = function() {
+    console.error('Erro ao carregar fotos.js');
+    document.getElementById("loading").style.display = "none";
+  };
+  document.body.appendChild(sF);
 })();
 </script>
 </body>
