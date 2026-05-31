@@ -496,7 +496,7 @@ function buildCards() {
     ci.appendChild(cwb); card.appendChild(ci); grid.appendChild(card);
   });
   document.querySelectorAll(".pcard.rv").forEach(function(el) { rvObs.observe(el); });
-  COLS.forEach(function(col) { initCarousel(col.id); });
+  // initCarousel() é chamado APÓS fotos.js carregar (IMGS precisa estar definido)
 }
 function handleUpload(id, input) {
   var st = STATE[id]; var remaining = 5 - st.srcs.length;
