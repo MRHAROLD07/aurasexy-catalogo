@@ -23,7 +23,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Corset branco com bordado floral dourado e cinta-liga — sofisticado e irresistível",
       keys: ["dn1a","dn1b"]
-    }
+    },
 
     {
       id: 37,
@@ -34,7 +34,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Body vermelho de renda com laço — apaixonante para a noite dos dois",
       keys: ["dn2a","dn2b"]
-    }
+    },
 
     {
       id: 38,
@@ -45,7 +45,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Camisola preta de cetim com decote halter — misteriosa e elegante",
       keys: ["dn3a","dn3b"]
-    }
+    },
 
     {
       id: 39,
@@ -56,7 +56,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Conjunto de renda com roupão transparente — disponível em preto e vermelho",
       keys: ["dn4a","dn4b"]
-    }
+    },
 
     {
       id: 40,
@@ -67,7 +67,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Camisola de cetim com decote em renda — disponível em azul marinho e branco",
       keys: ["dn5a","dn5b"]
-    }
+    },
 
     {
       id: 41,
@@ -78,7 +78,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Sutiã + calcinha em tule bordado preto com choker floral — ousadia e sofisticação",
       keys: ["dn6a","dn6b"]
-    }
+    },
 
     {
       id: 42,
@@ -89,7 +89,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Camisola vinho em tule transparente com bojo de renda — intensa e irresistível",
       keys: ["dn7a","dn7b"]
-    }
+    },
 
     {
       id: 43,
@@ -100,7 +100,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Sutiã + calcinha em tule bordado com rosas coloridas — único e apaixonante",
       keys: ["dn8a","dn8b"]
-    }
+    },
 
     {
       id: 44,
@@ -111,7 +111,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Top + short em renda preta transparente — delicada, sensual e confortável",
       keys: ["dn9a","dn9b"]
-    }
+    },
 
     {
       id: 45,
@@ -122,7 +122,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Conjunto vermelho estampado com coração e liga — feito para o 12 de junho",
       keys: ["dn10a"]
-    }
+    },
 
     {
       id: 46,
@@ -133,7 +133,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Harness vermelho com correntes douradas — poder, sedução e presença total",
       keys: ["dn11a","dn11b"]
-    }
+    },
 
     {
       id: 47,
@@ -144,7 +144,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Bustier + calcinha em tule bordado vermelho — delicado e ardente",
       keys: ["dn12a","dn12b"]
-    }
+    },
 
     {
       id: 48,
@@ -155,7 +155,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Body fúcsia com bordado floral — vibrante, feminina e irresistível",
       keys: ["dn13a","dn13b"]
-    }
+    },
 
     {
       id: 49,
@@ -166,7 +166,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Conjunto estampa onça com detalhes pretos — ousado, selvagem e irresistível",
       keys: ["dn14a","dn14b"]
-    }
+    },
 
     {
       id: 24,
@@ -177,7 +177,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Corset em renda com saia longa em tule — dramática e irresistível",
       keys: ["n5a","n5b","n5c","n5d"]
-    }
+    },
 
     {
       id: 25,
@@ -188,7 +188,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Cetim com renda e decote aberto nas costas — misteriosa e elegante",
       keys: ["c6a","c6b","c6c"]
-    }
+    },
 
     {
       id: 26,
@@ -199,7 +199,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Cetim rosê com renda e costas cruzadas — um presente para os dois",
       keys: ["c7a","c7b","c7c"]
-    }
+    },
 
     {
       id: 27,
@@ -210,7 +210,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Fio dental vermelho com renda — apaixonante e irresistível",
       keys: ["c9b","c9c","c9a","c9d"]
-    }
+    },
 
     {
       id: 28,
@@ -221,7 +221,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Calcinha vermelha de renda com laço — ousada e apaixonante",
       keys: ["w6a","w5a"]
-    }
+    },
 
     {
       id: 29,
@@ -232,7 +232,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Fio dental com renda preta e argolas douradas — o detalhe que completa a noite",
       keys: ["c8a","c8b","c8c"]
-    }
+    },
 
     {
       id: 30,
@@ -243,7 +243,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Bralette + saia de renda vermelha — ardente e elegante",
       keys: ["n2b","n2a","n2c"]
-    }
+    },
 
     {
       id: 31,
@@ -254,7 +254,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Bralette + saia de renda vermelha em cenário luxuoso — irresistível",
       keys: ["w7a","w7b","w7c"]
-    }
+    },
 
     {
       id: 32,
@@ -265,7 +265,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Corset de renda + cinta-liga + calcinha — o presente que ela nunca vai esquecer",
       keys: ["w1b","w1d","w1f","w1c","w1a","w1e"]
-    }
+    },
 
     {
       id: 33,
@@ -276,7 +276,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Sutiã estruturado + calcinha em renda preta — sofisticação para a noite",
       keys: ["n6a","n6b"]
-    }
+    },
 
     {
       id: 34,
@@ -287,7 +287,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Tule transparente com renda — ousadia e sofisticação para a noite dos dois",
       keys: ["p2a","p2b"]
-    }
+    },
 
     {
       id: 35,
@@ -298,7 +298,7 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Renda preta com amarrações e tule — sensualidade extrema",
       keys: ["n7b","n7a"]
-    }
+    },
 
     {
       id: 1,
@@ -308,7 +308,7 @@ var CATALOGO = {
       badge: "Lançamento",
       desc: "Tule e renda delicada — puro romantismo",
       keys: ["p1c","p1a","p1b","p1d"]
-    }
+    },
 
     {
       id: 2,
@@ -318,7 +318,7 @@ var CATALOGO = {
       badge: "Destaque",
       desc: "Tule transparente com renda — ousadia e sofisticação",
       keys: ["p2a","p2b"]
-    }
+    },
 
     {
       id: 18,
@@ -328,7 +328,7 @@ var CATALOGO = {
       badge: "Exclusivo",
       desc: "Renda preta com amarrações e tule — sensualidade extrema",
       keys: ["n7b","n7a"]
-    }
+    },
 
     {
       id: 3,
@@ -338,7 +338,7 @@ var CATALOGO = {
       badge: "Novo",
       desc: "Renda floral com forro — sensual e confortável",
       keys: ["p3a","p3b"]
-    }
+    },
 
     {
       id: 4,
@@ -348,7 +348,7 @@ var CATALOGO = {
       badge: "Exclusivo",
       desc: "Renda delicada em nude rosado — elegância pura",
       keys: ["p4a","p4b"]
-    }
+    },
 
     {
       id: 5,
@@ -358,7 +358,7 @@ var CATALOGO = {
       badge: "Premium",
       desc: "Renda floral amarela — atrevida e luminosa",
       keys: ["p5a","p5b","p5c"]
-    }
+    },
 
     {
       id: 6,
@@ -368,7 +368,7 @@ var CATALOGO = {
       badge: "Novo",
       desc: "Cetim com renda e decote aberto nas costas",
       keys: ["c6a","c6b","c6c"]
-    }
+    },
 
     {
       id: 7,
@@ -378,7 +378,7 @@ var CATALOGO = {
       badge: "Destaque",
       desc: "Cetim rosê com renda e costas cruzadas",
       keys: ["c7a","c7b","c7c"]
-    }
+    },
 
     {
       id: 15,
@@ -388,7 +388,7 @@ var CATALOGO = {
       badge: "Hot",
       desc: "Corset em renda com saia longa em tule — dramática e irresistível",
       keys: ["n5a","n5b","n5c","n5d"]
-    }
+    },
 
     {
       id: 8,
@@ -398,7 +398,7 @@ var CATALOGO = {
       badge: "Hot",
       desc: "Fio dental com renda preta e argolas douradas",
       keys: ["c8a","c8b","c8c"]
-    }
+    },
 
     {
       id: 9,
@@ -408,7 +408,7 @@ var CATALOGO = {
       badge: "Quente",
       desc: "Fio dental vermelho com renda — apaixonante e irresistível",
       keys: ["c9b","c9c","c9a","c9d"]
-    }
+    },
 
     {
       id: 10,
@@ -418,7 +418,7 @@ var CATALOGO = {
       badge: "Delicada",
       desc: "Fio dental rosa com renda e detalhe coração",
       keys: ["c10a","c10b","c10c"]
-    }
+    },
 
     {
       id: 11,
@@ -428,7 +428,7 @@ var CATALOGO = {
       badge: "Clássica",
       desc: "Fio dental branco com renda — minimalista e sensual",
       keys: ["c11a","h1","h2","h3"]
-    }
+    },
 
     {
       id: 20,
@@ -438,7 +438,7 @@ var CATALOGO = {
       badge: "Delicada",
       desc: "Fio dental branco com laço e detalhe dourado — feminina e irresistível",
       keys: ["w2a","w2b","w2c"]
-    }
+    },
 
     {
       id: 21,
@@ -448,7 +448,7 @@ var CATALOGO = {
       badge: "Paixão",
       desc: "Calcinha vermelha de renda com laço — ousada e apaixonante",
       keys: ["w6a","w5a"]
-    }
+    },
 
     {
       id: 12,
@@ -458,7 +458,7 @@ var CATALOGO = {
       badge: "Luxo",
       desc: "Bralette + saia de renda preta — sofisticação máxima",
       keys: ["n1b","n1c","n1a"]
-    }
+    },
 
     {
       id: 13,
@@ -468,7 +468,7 @@ var CATALOGO = {
       badge: "Paixão",
       desc: "Bralette + saia de renda vermelha — ardente e elegante",
       keys: ["n2b","n2a","n2c"]
-    }
+    },
 
     {
       id: 14,
@@ -478,7 +478,7 @@ var CATALOGO = {
       badge: "Coleção",
       desc: "Sutiã estruturado + calcinha em renda preta volumosa",
       keys: ["n6a","n6b"]
-    }
+    },
 
     {
       id: 16,
@@ -488,7 +488,7 @@ var CATALOGO = {
       badge: "Vibrante",
       desc: "Conjunto em renda fúcsia com sutiã e calcinha — ousado e apaixonante",
       keys: ["n3a"]
-    }
+    },
 
     {
       id: 17,
@@ -498,7 +498,7 @@ var CATALOGO = {
       badge: "Noiva",
       desc: "Conjunto em renda branca — puro, delicado e inesquecível",
       keys: ["n4a","w4a"]
-    }
+    },
 
     {
       id: 22,
@@ -508,7 +508,7 @@ var CATALOGO = {
       badge: "Sofisticado",
       desc: "Sutiã + calcinha em renda preta com laço dourado — clássico e sensual",
       keys: ["w3a","w5a"]
-    }
+    },
 
     {
       id: 23,
@@ -518,7 +518,7 @@ var CATALOGO = {
       badge: "Premium",
       desc: "Bralette + saia de renda vermelha em cenário luxuoso — irresistível",
       keys: ["w7a","w7b","w7c"]
-    }
+    },
 
     {
       id: 19,
@@ -528,7 +528,7 @@ var CATALOGO = {
       badge: "Exclusivo",
       desc: "Corset de renda + cinta-liga + calcinha — elegância e sensualidade máximas",
       keys: ["w1b","w1d","w1f","w1c","w1a","w1e"]
-    }
+    },
 
     // ── Fotos Editoriais Lifestyle ───────────────────────────────
     {
