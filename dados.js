@@ -541,6 +541,7 @@ var CATALOGO = {
       desc: "Camisola vermelha em cetim com bojo de renda e pingente dourado — sofisticada e irresistível",
       keys: ["uv1a","uv1c","uv1b","uv1d"]
     },
+    
     {
       id: 51,
       nome: "Camisola Branca Paixão",
@@ -553,8 +554,7 @@ var CATALOGO = {
     },
 
     // ── Coleção Nova — Dia dos Namorados 2026 ──────────────────────────
-    {
-    },
+   
     {
       id: 53,
       nome: "Camisola Tais Preta M e G",
@@ -565,6 +565,7 @@ var CATALOGO = {
       desc: "Sutiã e calcinha em renda com bordado floral — feminino e irresistível",
       keys: ["nc2a", "nc2b", "nc2c"]
     },
+    
     {
       id: 54,
       nome: "Camisola Tais Vermelha M e G",
@@ -575,6 +576,7 @@ var CATALOGO = {
       desc: "Camisola em tecido nobre com decote elegante — sofisticação pura",
       keys: ["nc3a", "nc3b", "nc3c"]
     },
+    
     {
       id: 55,
       nome: "Camisola Tais Vermelha M e G",
@@ -585,6 +587,7 @@ var CATALOGO = {
       desc: "Body com detalhes em renda — sensual e confortável para a noite dos dois",
       keys: ["nc4a", "nc4b"]
     },
+    
     {
       id: 56,
       nome: "Conjunto Ravena Branco M e G",
@@ -595,6 +598,7 @@ var CATALOGO = {
       desc: "Conjunto vermelho com acabamento delicado — feito para o 12 de junho",
       keys: ["nc5a", "nc5b"]
     },
+    
     {
       id: 57,
       nome: "Camisola Tais Vermelha M e G",
@@ -605,6 +609,7 @@ var CATALOGO = {
       desc: "Camisola escura com detalhe em renda — misteriosa e elegante",
       keys: ["nc6a", "nc6b"]
     },
+    
     {
       id: 58,
       nome: "Camisola Tais Preta e Vermelha M e G",
@@ -615,6 +620,7 @@ var CATALOGO = {
       desc: "Lingerie com bordado especial — um ritual de sedução e amor",
       keys: ["nc7a", "nc7b", "nc7c", "nc7d"]
     },
+    
     {
       id: 59,
       nome: "Body Ester Amarelo",
@@ -625,6 +631,7 @@ var CATALOGO = {
       desc: "Baby doll com tule e renda — delicado e irresistível",
       keys: ["nc8a", "nc8b"]
     },
+    
     {
       id: 60,
       nome: "Body Ester Marrom",
@@ -635,6 +642,7 @@ var CATALOGO = {
       desc: "Body especial para a noite dos dois — detalhes que encantam",
       keys: ["nc9a", "nc9b", "nc9c"]
     },
+    
     {
       id: 61,
       nome: "Body Ester Vermelho",
@@ -645,6 +653,7 @@ var CATALOGO = {
       desc: "Body com detalhes apaixonantes — para uma noite de pura emoção",
       keys: ["nc10a", "nc10b"]
     },
+    
     {
       id: 62,
       nome: "Camisola Amapola Branca M e G",
@@ -655,6 +664,7 @@ var CATALOGO = {
       desc: "Camisola provocante com detalhes exclusivos — para ela brilhar",
       keys: ["nc11a"]
     },
+    
     {
       id: 63,
       nome: "Camisola Amapola Branca e Vermelha M e G",
@@ -665,6 +675,7 @@ var CATALOGO = {
       desc: "Camisola com acabamento especial — para a noite mais especial do ano",
       keys: ["nc12a", "nc12b"]
     },
+    
     {
       id: 64,
       nome: "Camisola Amapola Vermelha M e G",
@@ -675,6 +686,7 @@ var CATALOGO = {
       desc: "Camisola com charme e feminilidade — ela vai adorar",
       keys: ["nc13a"]
     },
+    
     {
       id: 65,
       nome: "Camisola Amapola Branca M e G",
@@ -685,6 +697,7 @@ var CATALOGO = {
       desc: "Camisola com detalhes românticos — para uma noite de puro encanto",
       keys: ["nc14a", "nc14b"]
     },
+    
     {
       id: 66,
       nome: "Camisola Agnes Marrom G",
@@ -695,6 +708,7 @@ var CATALOGO = {
       desc: "Camisola de sedução total — cada detalhe é uma promessa",
       keys: ["nc15a", "nc15b"]
     },
+    
     {
       id: 67,
       nome: "Camisola Agnes Marrom e Preta G",
@@ -705,6 +719,7 @@ var CATALOGO = {
       desc: "Camisola romântica com tule delicado — puro romantismo",
       keys: ["nc16a", "nc16b"]
     },
+    
     {
       id: 68,
       nome: "Camisola Agnes Preta G",
@@ -715,6 +730,7 @@ var CATALOGO = {
       desc: "Camisola que desperta o desejo — para uma noite extraordinária",
       keys: ["nc17a", "nc17b"]
     },
+    
     {
       id: 69,
       nome: "Camisola Tais Vermelha",
@@ -725,6 +741,7 @@ var CATALOGO = {
       desc: "O conjunto perfeito para celebrar o amor — detalhes que emocionam",
       keys: ["nc18a", "nc18b", "nc18c"]
     },
+    
     {
       id: 70,
       nome: "Calcinha Fio Secretária Branca",
@@ -735,6 +752,7 @@ var CATALOGO = {
       desc: "calcinha com acabamentos especiais — sensual e elegante",
       keys: ["nc19a", "nc19b", "nc19c"]
     },
+    
     {
       id: 71,
       nome: "CCalcinha Fio Secretária Branca, Vermelha e Preta",
@@ -745,6 +763,7 @@ var CATALOGO = {
       desc: "Calcinha leve e sedutora — para noites de muito amor",
       keys: ["nc20a", "nc20b", "nc20c", "nc20d"]
     },
+    
     {
       id: 72,
       nome: "Fantasia Paola Branca M e G",
@@ -755,6 +774,7 @@ var CATALOGO = {
       desc: "Lingerie que não passa despercebida — tentação em cada detalhe",
       keys: ["nc21a", "nc21b"]
     },
+    
     {
       id: 73,
       nome: "Fantasia Paola Branca M e G",
@@ -765,8 +785,7 @@ var CATALOGO = {
       desc: "Lingerie especialmente pensada para o Dia dos Namorados — inesquecível",
       keys: ["nc22a", "nc22b", "nc22c"]
     },
-    {
-    },
+    
     {
       id: 75,
       nome: "Fantasia Paola Branca M e G",
@@ -776,13 +795,6 @@ var CATALOGO = {
       tags: ["dia-dos-namorados"],
       desc: "Lingerie especial para celebrar o amor — para a noite do dia 12",
       keys: ["nc24a"]
-    },
-    {
-    },
-    {
-      id: 77,
-    },
-    {
     },
   
   ],
