@@ -16,8 +16,8 @@ var CATALOGO = {
   produtos: [
     {
       id: 36,
-      nome: "Conjunto Branco Cinta-Liga",
-      preco: "R$ 249,90",
+      nome: "Lingerie Mel Branca M e G",
+      preco: "R$ 119,90",
       cat: "lingerie",
       badge: "Casal",
       tags: ["dia-dos-namorados"],
@@ -27,8 +27,8 @@ var CATALOGO = {
 
     {
       id: 37,
-      nome: "Body Vermelho Paixão",
-      preco: "R$ 149,90",
+      nome: "Body Stela Vermelho e Cappuccino M e G",
+      preco: "R$ 599,90",
       cat: "body",
       badge: "Casal",
       tags: ["dia-dos-namorados"],
@@ -38,8 +38,8 @@ var CATALOGO = {
 
     {
       id: 38,
-      nome: "Camisola Preta Cetim",
-      preco: "R$ 169,90",
+      nome: "Vestido Selena Preto, Branco e Vinho M e G",
+      preco: "R$ 109,90",
       cat: "camisola",
       badge: "Casal",
       tags: ["dia-dos-namorados"],
@@ -50,7 +50,7 @@ var CATALOGO = {
     {
       id: 39,
       nome: "Duo Conjunto com Roupão",
-      preco: "R$ 219,90",
+      preco: "R$ 2,90",
       cat: "lingerie",
       badge: "Duo",
       tags: ["dia-dos-namorados"],
