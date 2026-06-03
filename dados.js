@@ -28,7 +28,7 @@ var CATALOGO = {
     {
       id: 37,
       nome: "Body Stela Vermelho e Cappuccino M e G",
-      preco: "R$ 59,90",
+      preco: "R$ 89,90",
       cat: "body",
       badge: "Casal",
       tags: ["dia-dos-namorados"],
@@ -171,7 +171,7 @@ var CATALOGO = {
     {
       id: 24,
       nome: "Camisola Tais Vermelha M e G",
-      preco: "R$ 89,90",
+      preco: "R$ 127,90",
       cat: "camisola",
       badge: "Paixão",
       tags: ["dia-dos-namorados"],
@@ -281,7 +281,7 @@ var CATALOGO = {
     {
       id: 34,
       nome: "Camisola Amapola Vermelha",
-      preco: "R$ 81,90",
+      preco: "R$ 127,90",
       cat: "camisola",
       badge: "Destaque",
       tags: ["dia-dos-namorados"],
@@ -292,7 +292,7 @@ var CATALOGO = {
     {
       id: 35,
       nome: "Camisola Tais Preta M e G",
-      preco: "R$ 89,90",
+      preco: "R$ 127,90",
       cat: "camisola",
       badge: "Noite",
       tags: ["dia-dos-namorados"],
@@ -558,7 +558,7 @@ var CATALOGO = {
     {
       id: 53,
       nome: "Camisola Tais Preta M e G",
-      preco: "R$ 89,90",
+      preco: "R$ 127,90",
       cat: "camisola",
       badge: "Exclusivo",
       tags: ["dia-dos-namorados"],
@@ -568,9 +568,9 @@ var CATALOGO = {
     
     {
       id: 54,
-      nome: "Camisola Tais Vermelha M e G",
-      preco: "R$ 89,90",
-      cat: "camisola",
+      nome: "CConjunto Ravena Preta",
+      preco: "R$ 59,90",
+      cat: "lingerie",
       badge: "Editorial",
       tags: ["dia-dos-namorados"],
       desc: "Camisola em tecido nobre com decote elegante — sofisticação pura",
@@ -580,7 +580,7 @@ var CATALOGO = {
     {
       id: 55,
       nome: "Camisola Tais Vermelha M e G",
-      preco: "R$ 89,90",
+      preco: "R$ 127,90",
       cat: "camisola",
       badge: "Paixão",
       tags: ["dia-dos-namorados"],
