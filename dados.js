@@ -170,8 +170,8 @@ var CATALOGO = {
 
     {
       id: 24,
-      nome: "Camisola Carmim Desejo",
-      preco: "R$ 189,90",
+      nome: "Camisola Tais Vermelha M e G",
+      preco: "R$ 89,90",
       cat: "camisola",
       badge: "Paixão",
       tags: ["dia-dos-namorados"],
@@ -181,8 +181,8 @@ var CATALOGO = {
 
     {
       id: 25,
-      nome: "Camisola Noir Sedução",
-      preco: "R$ 159,90",
+      nome: "Camisola Agnes Preta G",
+      preco: "R$ 74,90",
       cat: "camisola",
       badge: "Noite",
       tags: ["dia-dos-namorados"],
@@ -192,8 +192,8 @@ var CATALOGO = {
 
     {
       id: 26,
-      nome: "Camisola Terracota Ritual",
-      preco: "R$ 159,90",
+      nome: "Camisola Agnes Marrom G",
+      preco: "R$ 74,90",
       cat: "camisola",
       badge: "Desejo",
       tags: ["dia-dos-namorados"],
@@ -203,8 +203,8 @@ var CATALOGO = {
 
     {
       id: 27,
-      nome: "Calcinha Crimson",
-      preco: "R$ 59,90",
+      nome: "Calcinha Fio Ariela Vermelha",
+      preco: "R$ 24,90",
       cat: "calcinha",
       badge: "Quente",
       tags: ["dia-dos-namorados"],
@@ -214,8 +214,8 @@ var CATALOGO = {
 
     {
       id: 28,
-      nome: "Calcinha Vermelha Laço",
-      preco: "R$ 59,90",
+      nome: "Calcinha Secretária Vermelha",
+      preco: "R$ 26,90",
       cat: "calcinha",
       badge: "Paixão",
       tags: ["dia-dos-namorados"],
@@ -225,8 +225,8 @@ var CATALOGO = {
 
     {
       id: 29,
-      nome: "Calcinha Noir",
-      preco: "R$ 59,90",
+      nome: "Calcinha Fio Ariela Preta",
+      preco: "R$ 24,90",
       cat: "calcinha",
       badge: "Sedução",
       tags: ["dia-dos-namorados"],
@@ -236,9 +236,9 @@ var CATALOGO = {
 
     {
       id: 30,
-      nome: "Conjunto Renda Rubi",
-      preco: "R$ 189,90",
-      cat: "lingerie",
+      nome: "CCamisola Elizabeth Vermelha M e G",
+      preco: "R$ 89,90",
+      cat: "camisola",
       badge: "Paixão",
       tags: ["dia-dos-namorados"],
       desc: "Bralette + saia de renda vermelha — ardente e elegante",
@@ -247,9 +247,9 @@ var CATALOGO = {
 
     {
       id: 31,
-      nome: "Conjunto Renda Vermelha Premium",
-      preco: "R$ 219,90",
-      cat: "lingerie",
+      nome: "Camisola Elizabeth Vermelha M e G",
+      preco: "R$ 89,90",
+      cat: "camisola",
       badge: "Premium",
       tags: ["dia-dos-namorados"],
       desc: "Bralette + saia de renda vermelha em cenário luxuoso — irresistível",
@@ -258,8 +258,8 @@ var CATALOGO = {
 
     {
       id: 32,
-      nome: "Conjunto Branco Luxo",
-      preco: "R$ 249,90",
+      nome: "Fantasia Paola Branca M e G",
+      preco: "R$ 119,90",
       cat: "lingerie",
       badge: "Presentear",
       tags: ["dia-dos-namorados"],
@@ -269,8 +269,8 @@ var CATALOGO = {
 
     {
       id: 33,
-      nome: "Conjunto Renda Noir Luxo",
-      preco: "R$ 199,90",
+      nome: "Conjunto Ravena Preta",
+      preco: "R$ 59,90",
       cat: "lingerie",
       badge: "Exclusivo",
       tags: ["dia-dos-namorados"],
@@ -280,9 +280,9 @@ var CATALOGO = {
 
     {
       id: 34,
-      nome: "Baby Doll Vermelho",
-      preco: "R$ 149,90",
-      cat: "baby-doll",
+      nome: "Camisola Amapola Vermelha",
+      preco: "R$ 81,90",
+      cat: "camisola",
       badge: "Destaque",
       tags: ["dia-dos-namorados"],
       desc: "Tule transparente com renda — ousadia e sofisticação para a noite dos dois",
@@ -291,9 +291,9 @@ var CATALOGO = {
 
     {
       id: 35,
-      nome: "Baby Doll Noir",
-      preco: "R$ 169,90",
-      cat: "baby-doll",
+      nome: "Camisola Tais Preta M e G",
+      preco: "R$ 89,90",
+      cat: "camisola",
       badge: "Noite",
       tags: ["dia-dos-namorados"],
       desc: "Renda preta com amarrações e tule — sensualidade extrema",
