@@ -534,7 +534,7 @@ var CATALOGO = {
     {
       id: 50,
       nome: "Camisola Vermelha Paixão",
-      preco: "R$ 169,90",
+      preco: "R$ 89,90",
       cat: "camisola",
       badge: "Editorial",
       tags: ["dia-dos-namorados"],
@@ -543,8 +543,8 @@ var CATALOGO = {
     },
     {
       id: 51,
-      nome: "Camisola Branca Encanto",
-      preco: "R$ 169,90",
+      nome: "Camisola Branca Paixão",
+      preco: "R$ 89,90",
       cat: "camisola",
       badge: "Editorial",
       tags: ["dia-dos-namorados"],
@@ -554,14 +554,6 @@ var CATALOGO = {
 
     // ── Coleção Nova — Dia dos Namorados 2026 ──────────────────────────
     {
-      id: 52,
-      nome: "Conjunto Encanto Vermelho",
-      preco: "R$ 189,90",
-      cat: "lingerie",
-      badge: "Paixão",
-      tags: ["dia-dos-namorados"],
-      desc: "Conjunto em renda vermelha com detalhes delicados — para uma noite inesquecível",
-      keys: ["nc1a"]
     },
     {
       id: 53,
